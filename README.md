@@ -1,9 +1,3 @@
-# Weather and Currency Checker
-
-A console application that provides weather information and currency conversion information.
-
-## Features
-
 ### Weather
 - Enter a city name to find its location.
 - Get the current temperature, humidity and wind speed.
