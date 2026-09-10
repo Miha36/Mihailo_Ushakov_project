@@ -1,17 +1,38 @@
-To make the code work, you need to install the library requests
+# Weather and Currency Checker
 
-Weather
-1 Sends the city name to the Open-Meteo Geocoding API.
-2 Retrieves the city's coordinates—latitude and longitude.
-3 Passes the coordinates to the Open-Meteo Forecast API.
-4 Retrieves current:temperature,wind speed.
-5 Converts the code to text (e.g., 0 → Clear sky)
-6 shows the result.
+A console application that provides weather information and currency conversion information.
 
-Currency Checker
-The program calls the ExchangeRate-API and retrieves the currency exchange rate.
+## Features
 
-This code uses an API
-Open-Meteo Geocoding API(to find the city's coordinates)
-Open-Meteo Forecast API(to get the weather)
-ExchangeRate API(for currencies)
+### Weather
+- Enter a city name to find its location.
+- Get the current temperature, humidity and wind speed.
+- Get a description of the current weather conditions.
+
+### Currency
+- Enter an amount and two currencies.
+- Get the current exchange rate.
+- Calculate the converted amount.
+
+### Search History
+- Saves weather and currency searches to a JSON file.
+- Allows you to view previous searches.
+
+## APIs Used
+
+- Open-Meteo Geocoding API – finds the coordinates of a city.
+- Open-Meteo Forecast API – gets current weather data.
+- ExchangeRate API – gets currency exchange rates.
+
+## Technologies
+
+- Python
+- Requests
+- JSON
+- REST APIs
+
+## How to Run
+
+1.Install the `requests` library.
+
+type in the terminal:pip install requests
